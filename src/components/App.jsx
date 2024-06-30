@@ -3,7 +3,7 @@ import SearchBox from "./SearchBox/SearchBox";
 import ContactList from "./ContactList/ContactList";
 import ErrorMessage from './ErrorMessage/ErrorMessage';
 import Loader from './Loader/Loader';
-import { fetchContacts } from "../redux/operations";
+import { fetchContacts } from "../redux/contactsOps";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from 'react';
 import { selectError, selectLoading } from "../redux/selectors";
